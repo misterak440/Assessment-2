@@ -1,0 +1,29 @@
+/* Flexbox Container */
+.flex-and-grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+/* Flexbox Items */
+.flex-item {
+    background-color: lightcoral;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid black;
+}

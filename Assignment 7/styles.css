@@ -1,0 +1,14 @@
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border: 2px solid black;
+}

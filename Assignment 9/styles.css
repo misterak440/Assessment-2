@@ -1,0 +1,28 @@
+/* Base Styles */
+.responsive-container {
+    padding: 20px;
+    background-color: lightcoral;
+    font-size: 18px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .responsive-container {
+        background-color: lightblue;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-container {
+        background-color: lightgreen;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-container {
+        background-color: lightgoldenrodyellow;
+        font-size: 12px;
+    }
+}

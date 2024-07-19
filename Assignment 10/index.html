@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10: Responsive Images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Responsive Images</h1>
+    <div class="responsive-images">
+        <img 
+            src="images/small.png" 
+            srcset="images/small.png 480w,
+                    images/medium.png 800w,
+                    images/large.png 1200w"
+            sizes="(max-width: 600px) 480px,
+                   (max-width: 900px) 800px,
+                   1200px"
+            alt="A beautiful scenery">
+    </div>
+</body>
+</html>

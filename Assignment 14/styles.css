@@ -1,0 +1,21 @@
+/* Keyframes */
+@keyframes example-animation {
+    0% {
+        background-color: lightcoral;
+        transform: translateX(0);
+    }
+    50% {
+        background-color: lightblue;
+        transform: translateX(100px);
+    }
+    100% {
+        background-color: lightcoral;
+        transform: translateX(0);
+    }
+}
+
+/* Animation Example */
+.animation-example {
+    padding: 20px;
+    animation: example-animation 2s infinite;
+}

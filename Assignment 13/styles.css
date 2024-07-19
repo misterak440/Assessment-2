@@ -1,0 +1,11 @@
+/* Transition Example */
+.transition-example {
+    padding: 20px;
+    background-color: lightcoral;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.transition-example:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+}

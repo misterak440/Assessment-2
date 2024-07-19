@@ -1,0 +1,14 @@
+/* Define CSS Variables */
+:root {
+    --main-bg-color: lightcoral;
+    --main-text-color: white;
+    --main-padding: 20px;
+}
+
+/* Use CSS Variables */
+.css-variables-example {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding: var(--main-padding);
+    border: 2px solid black;
+}

@@ -1,0 +1,44 @@
+/* Positioning Examples */
+.positioning-examples div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* Static Positioning */
+.static {
+    position: static;
+    background-color: lightgrey;
+}
+
+/* Relative Positioning */
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightblue;
+}
+
+/* Absolute Positioning */
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightgreen;
+}
+
+/* Fixed Positioning */
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightcoral;
+}
+
+/* Sticky Positioning */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: lightgoldenrodyellow;
+}

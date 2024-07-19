@@ -1,0 +1,39 @@
+/* Element Selector */
+p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#unique {
+    color: red;
+    font-style: italic;
+}
+
+/* Group Selector */
+h1, p {
+    margin: 10px;
+}
+
+/* Descendant Selector */
+div.container span {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Pseudo-class Selector */
+li:hover {
+    color: blue;
+}
+
+/* Pseudo-element Selector */
+p::first-line {
+    font-size: 1.2em;
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+/* Text Color */
+.color1 {
+    color: darkblue;
+}
+
+.color2 {
+    color: darkgreen;
+}
+
+/* Background Color */
+.bg-color {
+    background-color: lightgray;
+}
+
+/* Background Image */
+.bg-image {
+    background-image: url('path/to/your/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Gradient Background */
+.bg-gradient {
+    background: linear-gradient(to right, red, yellow);
+}

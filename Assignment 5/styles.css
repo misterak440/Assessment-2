@@ -1,0 +1,14 @@
+/* Flexbox Container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Flexbox Items */
+.flex-item {
+    background-color: lightcoral;
+    padding: 20px;
+    border: 2px solid black;
+}

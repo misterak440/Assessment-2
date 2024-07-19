@@ -1,0 +1,10 @@
+/* Transform Example */
+.transform-example {
+    padding: 20px;
+    background-color: lightcoral;
+    transition: transform 0.5s;
+}
+
+.transform-example:hover {
+    transform: rotate(45deg) scale(1.5);
+}

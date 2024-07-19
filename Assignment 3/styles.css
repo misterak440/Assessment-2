@@ -1,0 +1,29 @@
+/* Font Family */
+.font-family {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Font Size */
+.font-size {
+    font-size: 20px;
+}
+
+/* Font Weight */
+.font-weight {
+    font-weight: bold;
+}
+
+/* Font Style */
+.font-style {
+    font-style: italic;
+}
+
+/* Line Height */
+.line-height {
+    line-height: 1.8;
+}
+
+/* Text Transform */
+.text-transform {
+    text-transform: uppercase;
+}

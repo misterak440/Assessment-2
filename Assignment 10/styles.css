@@ -1,0 +1,6 @@
+/* Styles for the picture and img elements */
+picture, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
